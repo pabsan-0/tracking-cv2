@@ -1,0 +1,5 @@
+imutils
+numpy
+# best built from source with gstreamer support
+opencv-contrib-python
+v4l2ctl
