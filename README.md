@@ -1,15 +1,15 @@
-# Tracking demo
+# tracking-cv2 
 
 This repository implements a simple python script with all `opencv` trackers. 
 
-
+![image](.doc/image.png)
 
 Use it to test them or build further programs/benchmarkings.
 
 
 ## Setup 
 
-Install python dependencies with `pip3 install -r requirements.txt`. If you want to use v4l2loopback, you need to [install opencv with gstreamer support](https://gist.github.com/pabsan-0/1bf9d69f978e437692ef10cb5d77e466). A virtual environment is wildly recommended if you plan on building `opencv` from source.
+Install python dependencies with `pip3 install -r requirements.txt`. If you want to use v4l2loopback, you need to [install opencv with gstreamer support](https://gist.github.com/pabsan-0/1bf9d69f978e437692ef10cb5d77e466). A virtual environment is wildly recommended if you plan on building `opencv` from source. The script works best with default backend. 
 
 ```
 # Install all within a venv
